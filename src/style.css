@@ -1,4 +1,40 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
     
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centra horizontalmente los elementos */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/caceres.jpg");
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0 auto;
+    padding: 120px 0 120px;
+    text-align: center;
+}
+
+.header a {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header a:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-container {
+    max-width: 200px;
+    margin: 0 auto;
 }
